@@ -2,18 +2,20 @@ Cara Instalasi:
 
 1. Install ImageMagick di https://imagemagick.org/script/download.php
 2. Perbaiki PATH ImageMagick
+
 Cari lokasi instalasi ImageMagick. Biasanya berada di:
 C:\Program Files\ImageMagick-7.x.x-Q16-HDRI\
 
 Pastikan folder tersebut telah ditambahkan ke variabel PATH di sistem:
-Buka Control Panel > System > Advanced System Settings.
-Klik tombol Environment Variables.
-Di bagian System Variables, cari Path, lalu klik Edit.
-Tambahkan jalur instalasi ImageMagick (contoh: C:\Program Files\ImageMagick-7.x.x-Q16-HDRI\) ke daftar.
+a. Buka Control Panel > System > Advanced System Settings.
+b. Klik tombol Environment Variables.
+c. Di bagian System Variables, cari Path, lalu klik Edit.
+d. Tambahkan jalur instalasi ImageMagick (contoh: C:\Program Files\ImageMagick-7.x.x-Q16-HDRI\) ke daftar.
 
 Buka CMD ketik: magick -version
 
 Jika berhasil muncul seperti ini:
+
 Version: ImageMagick 7.1.1-43 Q16-HDRI x64 a2d96f4:20241222 https://imagemagick.org
 Copyright: (C) 1999 ImageMagick Studio LLC
 License: https://imagemagick.org/script/license.php
