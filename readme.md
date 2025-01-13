@@ -13,6 +13,14 @@ Tambahkan jalur instalasi ImageMagick (contoh: C:\Program Files\ImageMagick-7.x.
 
 Buka CMD ketik: magick -version
 
+Jika berhasil muncul seperti ini:
+Version: ImageMagick 7.1.1-43 Q16-HDRI x64 a2d96f4:20241222 https://imagemagick.org
+Copyright: (C) 1999 ImageMagick Studio LLC
+License: https://imagemagick.org/script/license.php
+Features: Channel-masks(64-bit) Cipher DPC HDRI Modules OpenCL OpenMP(2.0)
+Delegates (built-in): bzlib cairo flif freetype gslib heic jng jp2 jpeg jxl lcms lqr lzma openexr pangocairo png ps raqm raw rsvg tiff webp xml zip zlib
+Compiler: Visual Studio 2022 (194234435)
+
 
 
 Cara Penggunaan:
