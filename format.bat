@@ -30,7 +30,7 @@ for %%f in (*.jpg *.jpeg *.png) do (
         magick "%%f" -resize 1024x -quality 85 temp_resized.png
 
         :: Tambahkan watermark di sudut kanan bawah
-        magick composite -gravity southeast -geometry +10+10 "%watermark%" temp_resized.png temp_watermarked.png
+        magick composite -gravity southeast -geometry +40+40 "%watermark%" temp_resized.png temp_watermarked.png
 
         :: Konversi ke format WebP dengan nama baru
         magick temp_watermarked.png "%output_folder%\%prefix%_!counter!.webp"
